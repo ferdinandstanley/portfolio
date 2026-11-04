@@ -47,7 +47,7 @@ function renderProjects(filter = 'all') {
       : `<span class="inactive-link">Live demo link to be added</span>`;
     const sourceLink = project.githubUrl
       ? `<a href="${project.githubUrl}" target="_blank" rel="noopener">Source code ↗</a>`
-      : `<span class="inactive-link">GitHub link to be added</span>`;
+      : `<span class="inactive-link">GitHub link will be added</span>`;
     return `<article class="project-card">
       ${projectPreview(project)}
       <div class="project-content">
