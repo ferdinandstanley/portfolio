@@ -2,3 +2,69 @@
 @media(max-width:900px){.hero-grid{gap:20px}.hero h1{font-size:65px}.hero-visual{transform:scale(.9)}.two-column{gap:45px}.skills-grid{grid-template-columns:repeat(2,1fr)}.nav-links{gap:18px}.project-visual{height:190px}}
 @media(max-width:650px){.container{width:min(100% - 36px,520px)}.section{padding:75px 0}.site-header{height:68px}.menu-toggle{display:block;cursor:pointer}.nav-links{display:none;position:absolute;top:67px;left:0;right:0;background:white;border-bottom:1px solid var(--line);padding:18px 22px 22px;flex-direction:column;align-items:stretch;gap:0;box-shadow:0 15px 20px rgba(20,40,35,.06)}.nav-links.open{display:flex}.nav-links>a{padding:11px 0}.nav-links .nav-cta{text-align:center;margin-top:8px;padding:10px}.hero{padding:65px 0 20px;min-height:0}.hero-grid{grid-template-columns:1fr;gap:20px}.hero h1{font-size:62px;letter-spacing:-4px}.hero h2{font-size:15px}.hero-description{font-size:13px}.hero-visual{height:330px;transform:none;margin:0 -8px}.code-window{width:90%;transform:rotate(-1deg)}.code-content{font-size:9px;padding:18px 12px}.line-no{min-width:10px}.code-line{gap:12px}.card-top{right:0;top:13px}.card-bottom{left:0;bottom:10px}.floating-card{padding:9px 11px}.hero-footer{margin-top:28px;font-size:8px}.two-column{grid-template-columns:1fr;gap:28px}.section-heading{font-size:36px}.about-copy .lead{font-size:17px}.about-facts{gap:25px}.about-facts strong{font-size:23px}.section-title-row{display:block}.section-intro{margin-top:12px}.skills-grid{grid-template-columns:1fr 1fr;gap:10px}.skill-card{padding:17px 13px;min-height:250px}.skill-card h3{font-size:12px}.skill-card p{font-size:10px}.tag-list span{font-size:8px}.project-count{display:block;margin-top:15px}.projects-grid{grid-template-columns:1fr;gap:16px}.project-visual{height:205px}.project-content{padding:19px}.project-content p{min-height:0}.experience-section .two-column{gap:30px}.education-box{grid-template-columns:1fr;gap:18px;padding:27px 23px}.education-box .section-heading{font-size:30px}.contact-section{padding:65px 0}.contact-box{padding:38px 25px}.contact-box h2{font-size:40px}.contact-details{flex-direction:column;gap:8px}.footer-inner{display:grid;grid-template-columns:1fr 1fr;row-gap:13px}.footer-inner>span:nth-child(2){text-align:right}.footer-inner>span:last-child{text-align:right}}
 @media(max-width:380px){.skills-grid{grid-template-columns:1fr}.skill-card{min-height:0}.hero h1{font-size:54px}.hero-actions{flex-wrap:wrap}.code-content{font-size:8px}}
+
+/* Readability refinement: stronger contrast and more comfortable typography */
+:root{
+  --ink:#101820;
+  --muted:#4b5563;
+  --line:#dfe5e8;
+}
+body{color:var(--ink);font-size:17px;line-height:1.75}
+.nav-links{font-size:15px;color:#374151}
+.brand{font-size:17px}
+.hero-kicker{font-size:20px;color:#4b5563}
+.hero h2{font-size:20px}
+.hero-description{font-size:18px;color:#4b5563;line-height:1.8}
+.hero-socials{font-size:14px;color:#374151}
+.eyebrow,.section-label,.timeline-meta{font-size:11px}
+.button{font-size:15px}
+.hero-footer{font-size:11px;color:#66727d}
+.section-heading{font-size:clamp(38px,4.2vw,54px)}
+.heading-muted{color:#737f88}
+.about-copy p{font-size:16px;color:#4b5563}
+.about-copy .lead{font-size:21px;color:#101820}
+.about-facts strong{font-size:30px;color:#101820}
+.about-facts span{font-size:12px;color:#4b5563}
+.section-intro{font-size:15px;color:#4b5563}
+.skill-card h3{font-size:16px;color:#101820}
+.skill-card p{font-size:14px;color:#4b5563;line-height:1.7}
+.tag-list span{font-size:11px;color:#374151}
+.project-count{font-size:12px;color:#596571}
+.filter-button{font-size:13px;color:#374151}
+.project-type{font-size:11px}
+.project-number{font-size:12px;color:#66727d}
+.project-content h3{font-size:22px;color:#101820}
+.project-content p{font-size:15px;color:#4b5563;line-height:1.8}
+.project-tech{font-size:12px;color:#374151}
+.project-links a,.project-links span{font-size:13px}
+.project-edit-note{font-size:13px;color:#4b5563}
+.timeline-item h3{font-size:18px;color:#101820}
+.timeline-item p{font-size:14px;color:#4b5563}
+.education-box h3{font-size:18px;color:#101820}
+.education-box p{font-size:14px;color:#4b5563}
+.contact-box>p:not(.section-label){font-size:15px;color:#e0e7eb}
+.contact-details{font-size:13px;color:#e0e7eb}
+.footer-inner{font-size:12px;color:#596571}
+.floating-card b{font-size:13px;color:#101820}
+.floating-card small{font-size:11px;color:#596571}
+.window-top{font-size:12px;color:#596571}
+.code-content{font-size:12px}
+@media(max-width:650px){
+  body{font-size:16px}
+  .nav-links{font-size:15px}
+  .hero-kicker{font-size:18px}
+  .hero h2{font-size:17px}
+  .hero-description{font-size:16px}
+  .hero-socials{font-size:13px}
+  .section-heading{font-size:38px}
+  .about-copy p{font-size:15px}
+  .about-copy .lead{font-size:18px}
+  .skill-card h3{font-size:14px}
+  .skill-card p{font-size:12px}
+  .tag-list span{font-size:10px}
+  .project-content h3{font-size:20px}
+  .project-content p{font-size:14px}
+  .project-tech{font-size:11px}
+  .timeline-item h3{font-size:17px}
+  .timeline-item p{font-size:13px}
+}
