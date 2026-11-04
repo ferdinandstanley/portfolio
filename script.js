@@ -1,9 +1,4 @@
-/*
-  PROJECT LINKS: Replace the empty strings below with your actual URLs.
-  Example: liveUrl: "https://your-project.github.io/"
-           githubUrl: "https://github.com/yourusername/project-repository"
-  A button appears automatically when its URL is provided.
-*/
+
 const projects = [
   {
     number: "01", title: "Cryptocurrency Investment Platform", category: "fullstack", categoryLabel: "FULL-STACK WEB APPLICATION", visual: "investment",
