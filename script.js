@@ -15,7 +15,7 @@ const projects = [
     number: "02", title: "Movie Discovery Application", category: "javascript", categoryLabel: "API-POWERED APPLICATION", visual: "movie",
     description: "An interactive movie discovery experience with search, dynamic movie information, ratings, descriptions, and trailer discovery through external APIs.",
     technologies: "HTML5 · CSS3 · JavaScript · TMDB API · YouTube Data API",
-    liveUrl: "", githubUrl: ""
+    liveUrl: "https://ferdinandstanley.github.io/wdd330-project/movie-discovery/index.html", githubUrl: ""
   },
   {
     number: "03", title: "Lagos Chamber of Commerce", category: "web", categoryLabel: "MULTI-PAGE WEBSITE", visual: "chamber",
@@ -27,7 +27,7 @@ const projects = [
     number: "04", title: "Responsive Temple Directory", category: "javascript", categoryLabel: "RESPONSIVE WEBSITE", visual: "temple",
     description: "A responsive directory website for presenting temple information with dynamic content, interactive features, accessible navigation, and layouts that adapt to different screen sizes.",
     technologies: "HTML5 · CSS3 · JavaScript",
-    liveUrl: "", githubUrl: ""
+    liveUrl: "https://ferdinandstanley.github.io/wdd131/filtered-temples.html", githubUrl: ""
   }
 ];
 
