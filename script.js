@@ -9,7 +9,7 @@ const projects = [
     number: "01", title: "Cryptocurrency Investment Platform", category: "fullstack", categoryLabel: "FULL-STACK WEB APPLICATION", visual: "investment",
     description: "A responsive investment platform featuring user and admin dashboards, configurable investment plans, deposit workflows, bonus enrollment, referral tracking, and transaction management.",
     technologies: "PHP · Laravel · MySQL · JavaScript · HTML · CSS · Bootstrap",
-    liveUrl: "", githubUrl: ""
+    liveUrl: "https://clearviewinvestments.org/", githubUrl: ""
   },
   {
     number: "02", title: "Movie Discovery Application", category: "javascript", categoryLabel: "API-POWERED APPLICATION", visual: "movie",
