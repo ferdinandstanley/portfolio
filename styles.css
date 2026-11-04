@@ -159,3 +159,30 @@ body{color:var(--ink);font-size:17px;line-height:1.75}
   .hero .hero-description{color:#f0f5f5}
   .hero .hero-footer{color:#d2dfdf}
 }
+
+/* Full-width dark navy contact section */
+.contact-section{
+  background: var(--navy);
+  padding: 85px 0 95px;
+}
+.contact-box{
+  background: transparent;
+  color: #fff;
+  border-radius: 0;
+  padding: 35px 0;
+  position: relative;
+  overflow: hidden;
+}
+.contact-box:after{
+  right: -90px;
+  top: -220px;
+}
+.contact-box .section-label{color:#9bc6b6;}
+.contact-box h2{color:#fff;}
+.contact-box>p:not(.section-label){color:#e0e7eb;}
+.contact-details{color:#e0e7eb;}
+.contact-details a{color:#fff;}
+@media(max-width:650px){
+  .contact-section{padding:55px 0 65px;}
+  .contact-box{padding:25px 0;}
+}
